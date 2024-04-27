@@ -13,15 +13,15 @@
         <input type="text" name="name" id="" value='{{$produto->name}}'>
 
         <label for="">Descrição: </label>
-        <input type="text" name="description" id="">
+        <input type="text" name="description" id="" value='{{$produto->description}}'>
         
         <label for="">Categoria</label>
-        <input type="text" name="category" id="">
+        <input type="text" name="category" id="" value='{{$produto->category}}'>
 
         <label for="">Preço</label>
-        <input type="number" name="price" id="">
+        <input type="number" name="price" id="" value='{{$produto->price}}'>
 
-        <input type="submit" value="Criar Produto">
+        <input type="submit" value="Editar Produto">
     </form>
     
 </body>
